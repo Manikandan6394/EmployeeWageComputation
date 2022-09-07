@@ -12,6 +12,7 @@ public class UC2 {
 		int wagePerHour = 20;
 		int fullDayHour = 8;
 		int wagePerDay = 0;
+		int partdayhour=4;
 		if (attendance ==1 )
 		{
 			System.out.println("Employee is	 present");
@@ -20,7 +21,7 @@ public class UC2 {
 		else
 		{
 		System.out.println("Employee is not present");	
-
+		wagePerDay = wagePerHour*partdayhour;
 }
 	}
 
