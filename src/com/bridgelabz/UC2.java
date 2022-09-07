@@ -17,14 +17,13 @@ public class UC2 {
 		{
 			System.out.println("Employee is	 present");
 			wagePerDay = wagePerHour*fullDayHour;
+			System.out.println(wagePerDay);
+			
 		}
 		else
-		{
-		System.out.println("Employee is not present");	
+			System.out.println("Employee is not prescent");
 		wagePerDay = wagePerHour*partdayhour;
+		System.out.println(wagePerDay);
+	}
+	
 }
-	}
-
-
-	}
-
